@@ -33,3 +33,12 @@ sequentially iterate through an unordered collection. Each inner
 pass is used to find the index of the smallest item. 
 At the conclusion of each inner pass the smallest item is swapped
 in to the index of the outer loop.</p>
+<br>
+<b>Insertion Sort</b>
+<br>
+Time complexity - O(n^2)
+<br>
+<p>Insertion sort progresses through an unordered container and
+walks back lower elements to their proper index. An outer for loop
+keeps track of the start index for each round of walk backs 
+performed by the inner while loop. </p>
