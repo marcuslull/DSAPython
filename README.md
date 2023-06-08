@@ -55,7 +55,7 @@ EX: [8, 4, 2, 1]</p>
 <br>
 <b>Quick Sort</b>
 <br>
-Time complexity - O(n^2)
+Time complexity - O(n^2), AVG: O(nlogn)
 <br>
 <p>Quick sort recursively partitions the unordered container
 sorting each diminishing segment as it goes. The partitions are
@@ -67,7 +67,7 @@ to the right of the pivot.</p>
 <br>
 <b>Merge Sort</b>
 <br>
-Time complexity - O(n(log(n)))
+Time complexity - O(nlogn)
 <br>
 <p>Merge sort divides the unordered container and its subsequent 
 sub-containers into halves recursively sorting them before merging
