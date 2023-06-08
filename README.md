@@ -72,3 +72,12 @@ Time complexity - O(n(log(n)))
 <p>Merge sort divides the unordered container and its subsequent 
 sub-containers into halves recursively sorting them before merging
 them back in sorted order.</p>
+<br>
+<b>Radix Sort</b>
+<br>
+Time complexity - O(nk)
+<br>
+<p>Radix sort uses buckets to separate an unordered container of
+integers by significant digit. Beginning with the ones column
+Radix sort moves up in digits until the most significant digit
+of the longest number has been processed.</p>
