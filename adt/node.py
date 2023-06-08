@@ -1,0 +1,7 @@
+class Node:
+
+    """Node class for use in some ADTs"""
+
+    def __init__(self, data):
+        self.data = data
+        self.next = None

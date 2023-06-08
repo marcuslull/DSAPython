@@ -84,3 +84,8 @@ of the longest number has been processed.</p>
 <br>
 <h2>Abstract Data Types</h2>
 <br>
+<b>Singly linked list</b>
+<br>
+<p>A node based list where each node references the next node in
+the list. Methods include: append, prepend, insert_after,
+remove_after, and traverse</p>
