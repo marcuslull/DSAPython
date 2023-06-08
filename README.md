@@ -64,3 +64,11 @@ subcontainer and simultaneously iterating from the start and end
 of the list to compare and swap values such that at the end of
 each round, the lower values are to the left and higher values
 to the right of the pivot.</p>
+<br>
+<b>Merge Sort</b>
+<br>
+Time complexity - O(n(log(n)))
+<br>
+<p>Merge sort divides the unordered container and its subsequent 
+sub-containers into halves recursively sorting them before merging
+them back in sorted order.</p>
