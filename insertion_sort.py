@@ -18,4 +18,4 @@ class InsertionSort:
                 self.unordered_container[pointer - 1] = temp
                 pointer -= 1
 
-        return self.unordered_container
+        return

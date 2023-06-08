@@ -16,4 +16,5 @@ class SelectionSort:
             temp = self.unordered_container[i]
             self.unordered_container[i] = self.unordered_container[index_of_the_smallest]
             self.unordered_container[index_of_the_smallest] = temp
-        return self.unordered_container
+
+        return

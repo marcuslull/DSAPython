@@ -13,7 +13,7 @@ class ShellSort:
             for i in range(gap_value):
                 self.insertion_sort_interleaved(i, gap_value)
 
-        return self.unordered_container
+        return
 
     def insertion_sort_interleaved(self, start_index, gap):
 
