@@ -7,6 +7,7 @@ class InsertionSort:
 
         """Insertion sort progresses through an unordered container and walks back lower elements to their proper
         index"""
+
         for i in range(1, len(self.unordered_container)):
             pointer = i
             # print(self.unordered_container)

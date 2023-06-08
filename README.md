@@ -42,3 +42,13 @@ Time complexity - O(n^2)
 walks back lower elements to their proper index. An outer for loop
 keeps track of the start index for each round of walk backs 
 performed by the inner while loop. </p>
+<br>
+<b>Shell Sort</b>
+<br>
+Time complexity - O(n^2)
+<br>
+<p>Shell sort utilizes the insertion sort strategy but makes
+use of a gaping technique to reduce the overall comparisons.
+The gap values specified should start at half the containers size,
+decrease in a log2 manner, always end in 1. 
+EX: [8, 4, 2, 1]</p>
