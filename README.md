@@ -52,3 +52,15 @@ use of a gaping technique to reduce the overall comparisons.
 The gap values specified should start at half the containers size,
 decrease in a log2 manner, always end in 1. 
 EX: [8, 4, 2, 1]</p>
+<br>
+<b>Quick Sort</b>
+<br>
+Time complexity - O(n^2)
+<br>
+<p>Quick sort recursively partitions the unordered container
+sorting each diminishing segment as it goes. The partitions are
+split by determining a middle pivot index at the center of each
+subcontainer and simultaneously iterating from the start and end
+of the list to compare and swap values such that at the end of
+each round, the lower values are to the left and higher values
+to the right of the pivot.</p>
