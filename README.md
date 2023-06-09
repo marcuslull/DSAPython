@@ -98,3 +98,8 @@ A dynamically allocated container for storing elements. The array
 will allocate container size (up or down) automatically depending
 on the number of elements in the container. This ADT had the
 methods: append, insert, remove, and search.
+
+**Stack**
+
+Utilizes Python's list to create a lifo container. Includes 
+methods peek, pop and push.
