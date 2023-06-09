@@ -103,3 +103,8 @@ methods: append, insert, remove, and search.
 
 Utilizes Python's list to create a lifo container. Includes 
 methods peek, pop and push.
+
+**Queue**
+
+Utilizes Python's list to create a fifo container. Includes
+methods dequeue, enqueue, and peek.
