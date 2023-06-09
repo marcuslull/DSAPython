@@ -11,9 +11,12 @@ class Array:
         out = "["
         for i in range(0, self.length):
             out += str(self.array[i]) + ", "
-        out = out[0:-2]
-        out += "]"
-        return out
+        if len(out) == 1:
+            return "None"
+        else:
+            out = out[0:-2]
+            out += "]"
+            return out
 
     def append(self, element):
         self.resize_check()

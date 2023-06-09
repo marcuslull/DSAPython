@@ -13,9 +13,12 @@ class Stack:
         out = "["
         for i in range(0, len(self)):
             out += str(self.stack[i]) + ", "
-        out = out[0:-2]
-        out += "]"
-        return out
+        if len(out) == 1:
+            return "None"
+        else:
+            out = out[0:-2]
+            out += "]"
+            return out
 
     def pop(self):
         self.stack.pop()

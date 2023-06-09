@@ -11,9 +11,12 @@ class Queue:
         out = "["
         for i in range(0, len(self)):
             out += str(self.queue[i]) + ", "
-        out = out[0:-2]
-        out += "]"
-        return out
+        if len(out) == 1:
+            return "None"
+        else:
+            out = out[0:-2]
+            out += "]"
+            return out
 
     def enqueue(self, element):
         self.queue.append(element)
