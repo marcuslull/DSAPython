@@ -7,6 +7,7 @@ class SinglyLinkedList:
         self.tail = None
 
     def append(self, node):
+        node.reset_pointers()
         if self.head is None:
             self.head = node
             self.tail = node
@@ -15,6 +16,7 @@ class SinglyLinkedList:
             self.tail = node
 
     def prepend(self, node):
+        node.reset_pointers()
         if self.head is None:
             self.head = node
             self.tail = node
@@ -23,6 +25,7 @@ class SinglyLinkedList:
             self.head = node
 
     def insert_after(self, existing_node, node):
+        node.reset_pointers()
         if self.head is None:
             self.head = node
             self.tail = node
