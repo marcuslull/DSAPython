@@ -84,4 +84,10 @@ ___
 
 A node based list where each node references the next node in
 the list. Methods include: append, prepend, insert_after,
-remove_after, and traverse
+remove_after, and traverse.
+
+**Doubly linked list**
+
+A node based list where each node references the next and previous
+nodes in the list. Methods include: append, prepend, insert_after,
+remove, traverse, reverse_traverse.
