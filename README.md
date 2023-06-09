@@ -1,91 +1,87 @@
 # Data Structures and Algorithms in Python
+## Search Algorithms
+**Linear Search:**
 
-<h2>Search Algorithms</h2>
-<br>
-<b>Linear Search:</b>
-<br>
 Time complexity - O(n)
-<br>
-<p>The linear search algorithm is used to find the index location
+
+The linear search algorithm is used to find the index location
 of a key by visiting each item in a collection until the key 
-is found or the end of the collection is reached.</p>
-<br>
-<b>Binary Search:</b>
-<br>
+is found or the end of the collection is reached.
+
+**Binary Search:**
+
 Time complexity - O(log(n))
-<br>
-<p>The binary search algorithm is used to find the index location
+
+The binary search algorithm is used to find the index location
 of a key using a binary strategy. The middle element of a sorted
 collection is compared against the key, either returning the index
 location if matched or repeating the process using higher or lower
 information to eliminate half of the remaining collection. This
 strategy is repeated until the key is found or the end of the
-collection is reached.</p>
-<br>
-<h2>Sorting Algorithms</h2>
-<br>
-<b>Selection Sort</b>
-<br>
+collection is reached.
+___
+## Sorting Algorithms
+**Selection Sort**
+
 Time complexity - O(n^2)
-<br>
-<p>The selection sort algorithm uses nested for loops to 
+
+The selection sort algorithm uses nested for loops to 
 sequentially iterate through an unordered collection. Each inner
 pass is used to find the index of the smallest item. 
 At the conclusion of each inner pass the smallest item is swapped
-in to the index of the outer loop.</p>
-<br>
-<b>Insertion Sort</b>
-<br>
+in to the index of the outer loop.
+
+**Insertion Sort**
+
 Time complexity - O(n^2)
-<br>
-<p>Insertion sort progresses through an unordered container and
+
+Insertion sort progresses through an unordered container and
 walks back lower elements to their proper index. An outer for loop
 keeps track of the start index for each round of walk backs 
-performed by the inner while loop. </p>
-<br>
-<b>Shell Sort</b>
-<br>
+performed by the inner while loop. 
+
+**Shell Sort**
+
 Time complexity - O(n^2)
-<br>
-<p>Shell sort utilizes the insertion sort strategy but makes
+
+Shell sort utilizes the insertion sort strategy but makes
 use of a gaping technique to reduce the overall comparisons.
 The gap values specified should start at half the containers size,
 decrease in a log2 manner, always end in 1. 
-EX: [8, 4, 2, 1]</p>
-<br>
-<b>Quick Sort</b>
-<br>
+EX: `[8, 4, 2, 1]`
+
+**Quick Sort**
+
 Time complexity - O(n^2), AVG: O(nlogn)
-<br>
-<p>Quick sort recursively partitions the unordered container
+
+Quick sort recursively partitions the unordered container
 sorting each diminishing segment as it goes. The partitions are
 split by determining a middle pivot index at the center of each
-subcontainer and simultaneously iterating from the start and end
+sub-container and simultaneously iterating from the start and end
 of the list to compare and swap values such that at the end of
 each round, the lower values are to the left and higher values
-to the right of the pivot.</p>
-<br>
-<b>Merge Sort</b>
-<br>
+to the right of the pivot.
+
+**Merge Sort**
+
 Time complexity - O(nlogn)
-<br>
-<p>Merge sort divides the unordered container and its subsequent 
+
+Merge sort divides the unordered container and its subsequent 
 sub-containers into halves recursively sorting them before merging
-them back in sorted order.</p>
-<br>
-<b>Radix Sort</b>
-<br>
+them back in sorted order.
+
+**Radix Sort**
+
 Time complexity - O(nk)
-<br>
-<p>Radix sort uses buckets to separate an unordered container of
+
+Radix sort uses buckets to separate an unordered container of
 integers by significant digit. Beginning with the ones column
 Radix sort moves up in digits until the most significant digit
-of the longest number has been processed.</p>
-<br>
-<h2>Abstract Data Types</h2>
-<br>
-<b>Singly linked list</b>
-<br>
-<p>A node based list where each node references the next node in
+of the longest number has been processed.
+___
+## Abstract Data Types</h2>
+**Singly linked list**
+
+A node based list where each node references the next node in
 the list. Methods include: append, prepend, insert_after,
-remove_after, and traverse</p>
+remove_after, and traverse
