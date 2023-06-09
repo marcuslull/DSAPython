@@ -91,3 +91,10 @@ remove_after, and traverse.
 A node based list where each node references the next and previous
 nodes in the list. Methods include: append, prepend, insert_after,
 remove, traverse, reverse_traverse.
+
+**Array**
+
+A dynamically allocated container for storing elements. The array
+will allocate container size (up or down) automatically depending
+on the number of elements in the container. This ADT had the
+methods: append, insert, remove, and search.
