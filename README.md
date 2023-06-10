@@ -108,3 +108,10 @@ methods peek, pop and push.
 
 Utilizes Python's list to create a fifo container. Includes
 methods dequeue, enqueue, and peek.
+
+**Hash table**
+
+This implementation uses open addressing with a linear probing
+approach to map key/value pairs to a given index. The hashing
+scheme uses Python's build in hash function modulo size of the
+array to map buckets to index numbers.
