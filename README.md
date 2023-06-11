@@ -123,4 +123,11 @@ A basic tree with an ordering property such that left child < node
 < right child. This implementation has insert, remove, and
 search methods.
 
+**AVL Tree**
+
+An AVL Tree is a balanced BST which to maintain search efficiency.
+The tree uses a node rotation scheme to dynamically balance as
+nodes are inserted or removed. Methods include insert, remove key,
+and search.
+
 
