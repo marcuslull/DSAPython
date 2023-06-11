@@ -3,6 +3,8 @@ from tree.tree_print import pretty_tree
 
 class Node:
 
+    """Node data structure for the BST"""
+
     def __init__(self, key):
         self.key = key
         self.left = None
@@ -10,6 +12,8 @@ class Node:
 
 
 class BinarySearchTree:
+
+    """A basic tree with an ordering property such that left child < node < right child."""
 
     def __init__(self):
         self.root = None
