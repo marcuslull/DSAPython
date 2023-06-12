@@ -155,5 +155,14 @@ of a nodes children's keys are always equal or less than the nodes
 key. This results in the root of the tree having the greatest key.
 This implementation uses a binary tree with the methods insert and
 remove.
+___
+## Graph Structures
+
+**Graph and Vertex**
+
+The graph represents a set of vertices connected 
+in some way via edges to represent a relationship. This
+implementation supports both directed or undirected edges and
+weights.
 
 
