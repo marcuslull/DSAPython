@@ -78,6 +78,16 @@ Radix sort uses buckets to separate an unordered container of
 integers by significant digit. Beginning with the ones column
 Radix sort moves up in digits until the most significant digit
 of the longest number has been processed.
+
+**Heap Sort**
+
+Time complexity - O(nlogn)
+
+With each pass of heapsort over an unordered container it will 
+remove the largest element and store it at the end of the container
+in sorted order. This is achieved by replacing the root element
+(largest) with the last element and then re-heapify the 
+container using a percolate down method.
 ___
 ## Abstract Data Types
 **Singly linked list**
@@ -115,7 +125,7 @@ This implementation uses open addressing with a linear probing
 approach to map key/value pairs to a given index. The hashing
 scheme uses Python's build in hash function modulo size of the
 array to map buckets to index numbers.
-
+___
 ## Tree Structures
 **Binary Search Tree**
 
