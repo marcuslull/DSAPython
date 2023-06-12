@@ -138,4 +138,12 @@ scheme to keep the tree as balanced as possible resulting in low
 insert, remove and search times. Methods include insert, remove key
 and search.
 
+**Max Heap**
+
+A max heap is a complete tree that maintains the single property
+of a nodes children's keys are always equal or less than the nodes
+key. This results in the root of the tree having the greatest key.
+This implementation uses a binary tree with the methods insert and
+remove.
+
 
