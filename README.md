@@ -173,6 +173,7 @@ ___
 The graph represents a set of vertices connected 
 in some way via edges to represent a relationship. This
 implementation supports both directed or undirected edges and
-weights.
+weights. The graph also includes a method for finding the shortest
+path between nodes using Dijkstra shortest path algorithm.
 
 
