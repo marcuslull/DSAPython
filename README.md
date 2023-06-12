@@ -130,4 +130,12 @@ The tree uses a node rotation scheme to dynamically balance as
 nodes are inserted or removed. Methods include insert, remove key,
 and search.
 
+**Red Black Tree**
+
+A red black tree is a BST where we have two node types. With the
+two node types combined with standard BST rules we can devise a
+scheme to keep the tree as balanced as possible resulting in low
+insert, remove and search times. Methods include insert, remove key
+and search.
+
 
