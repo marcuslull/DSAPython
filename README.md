@@ -19,6 +19,16 @@ location if matched or repeating the process using higher or lower
 information to eliminate half of the remaining collection. This
 strategy is repeated until the key is found or the end of the
 collection is reached.
+
+**Breadth First Search**
+
+This search algorithm traverses a graph by exploring all adjacent
+vertices before moving to the next closest.
+
+**Depth First Search**
+
+This search traverses a graph by visiting every vertex along a path
+before backtracking to the next available path.
 ___
 ## Sorting Algorithms
 **Selection Sort**
