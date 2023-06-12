@@ -17,6 +17,12 @@ class Graph:
         self.add_directed_edge(vertex_a, vertex_b, weight)
         self.add_directed_edge(vertex_b, vertex_a, weight)
 
+    def get_vertex(self, vertex_label):
+        for vertex in self.adjacency_list:
+            if vertex.label == vertex_label:
+                return vertex
+        return None
+
 
 class Vertex:
 
